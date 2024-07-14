@@ -1,0 +1,7 @@
+npm install @nestjs/core @nestjs/common @nestjs/platform-express express mongoose morgan cors helmet hpp compression cookie-parser swagger-jsdoc swagger-ui-express
+npm install -D @nestjs/cli @nestjs/schematics typescript ts-node-dev eslint prettier eslint-config-prettier eslint-plugin-prettier
+
+
+
+mkdir -p src/core/config src/core/utils src/core/db src/modules/authentication src/lib src/types
+touch src/main.ts src/core/app.ts src/core/config/index.ts src/core/utils/logger.ts src/core/utils/validateEnv.ts src/core/db/index.ts src/lib/errorMiddleware.ts src/types/index.ts src/modules/authentication/authentication.module.ts src/modules/authentication/authentication.controller.ts src/modules/authentication/authentication.service.ts src/swagger.yaml
